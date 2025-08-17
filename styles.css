@@ -418,10 +418,9 @@ header {
     }
     
     .profile-yo h1, h2, h4{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
         color: white;
-        word-spacing: .4px;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: square;
     }
     
     .profile-photo{
