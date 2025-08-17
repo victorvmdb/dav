@@ -415,6 +415,7 @@ header {
     .profile-row {
         flex-direction: column;
         padding: 0;
+        color: white;
     }
     
     .profile-photo{
