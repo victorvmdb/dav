@@ -440,6 +440,7 @@ header {
         color: white;
         word-spacing: .4px;
     }
+    
     .navegacion {
     top: auto;        
     bottom: 10px;      
@@ -534,6 +535,12 @@ header {
 @media screen and (max-width: 480px) {
   .knowledge-section {
     overflow: hidden; 
+  }
+  .profile-yo h1, h2, h4{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        color: white;
+        word-spacing: .4px;
   }
   .knowledge-container{
     max-width: 100%;
