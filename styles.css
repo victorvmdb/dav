@@ -417,6 +417,13 @@ header {
         color: white;
     }
     
+    .profile-yo h1, h2, h4{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        color: white;
+        word-spacing: .4px;
+    }
+    
     .profile-photo{
         position: relative;
         top: 40px;
@@ -433,12 +440,6 @@ header {
     .profile-photo img {
         width: 100px;
         height: 125px;
-    }
-    .profile-yo h1, h2, h4{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        color: white;
-        word-spacing: .4px;
     }
     
     .navegacion {
