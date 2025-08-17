@@ -96,7 +96,7 @@ header {
     line-height: 1.2;
     transition: background-position 0.5s ease, transform 0.4s ease;
 }
-    .nav-tabs li a:hover {
+.nav-tabs li a:hover {
     background-position: right center;
     transform: scale(1.05);
 }
@@ -412,6 +412,7 @@ header {
         padding: 0;
         color: white;
     }
+    
     .profile-row h1, h2{
         color: white;
     }
@@ -532,6 +533,10 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+  .profile-row h1, h2,p{
+      color:white;
+  }
+    
   .knowledge-section {
     overflow: hidden; 
   }
