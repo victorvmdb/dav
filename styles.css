@@ -426,13 +426,6 @@ header {
         padding: 10px;
         margin-left: 10px;
     }
-    .profile-yo h1{
-    display: flex;
-    padding: 0 19px;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-        
     .profile-info p{
         size: 10px;
     }
@@ -536,43 +529,19 @@ header {
         height: auto;
         display: block;
     }
-
-    .projects-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .video-card {
-        position: relative;
-        width: 100%;
-        max-width: 750px; 
-        margin: 10px;
-        box-sizing: border-box;
-    }
-    
-    .video-card video {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
 }
 
 @media screen and (max-width: 480px) {
-  .profile-yo h1{
-    display: flex;
-    padding: 0 19px;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-        
   .knowledge-section {
     overflow: hidden; 
   }
+  .knowledge-container{
+    max-width: 100%;
+ }
 
   .icons-circle {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -580,12 +549,18 @@ header {
   }
 
   .icon {
-    width: 550px;
-    height: 550px;
+    width: 100px;
+    height: 100px;
   }
 
   .knowledge-section h1 {
     font-size: 1.5rem;
-    top: 5%;
+    top: 1%;
   }
+  .center-photo h2{
+    color:yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25%;
+    }
+  
 }
