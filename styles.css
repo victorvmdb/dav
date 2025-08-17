@@ -417,6 +417,9 @@ header {
         padding: 0;
         color: white;
     }
+    .profile-row h1, h2{
+        color: white;
+    }
     
     .profile-photo{
         position: relative;
