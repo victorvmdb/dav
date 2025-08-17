@@ -487,8 +487,8 @@ header {
     }
     
     .icons-circle {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     left: 50%;
     top: 1%;
     transform: translate(-50%, -50%);
@@ -502,8 +502,8 @@ header {
     }
 
     .icon {
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 350px;
     }
     .knowledge-section h1 {
     font-size: 2rem;
@@ -537,8 +537,8 @@ header {
   }
 
   .icons-circle {
-    width: 200px;
-    height: 200px;
+    width: 370px;
+    height: 370px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
