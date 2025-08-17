@@ -536,12 +536,7 @@ header {
   .knowledge-section {
     overflow: hidden; 
   }
-  .profile-yo h1, h2, h4{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        color: white;
-        word-spacing: .4px;
-  }
+    
   .knowledge-container{
     max-width: 100%;
  }
